@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# do semafor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/Lab2/HDL/IP {D:/FPGA/Lab2/HDL/IP/periodram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:21:19 on Dec 18,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Lab2/HDL/IP" D:/FPGA/Lab2/HDL/IP/periodram.v 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 05:21:19 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/FPGA/Lab2/HDL {D:/FPGA/Lab2/HDL/dec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:21:19 on Dec 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/FPGA/Lab2/HDL" D:/FPGA/Lab2/HDL/dec.sv 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 05:21:19 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/FPGA/Lab2/TestBench/dec {D:/FPGA/Lab2/TestBench/dec/dec_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:21:19 on Dec 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/FPGA/Lab2/TestBench/dec" D:/FPGA/Lab2/TestBench/dec/dec_tb.sv 
+# -- Compiling module dec_tb
+# 
+# Top level modules:
+# 	dec_tb
+# End time: 05:21:20 on Dec 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  dec_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" dec_tb 
+# Start time: 05:21:20 on Dec 18,2021
+# Loading sv_std.std
+# Loading work.dec_tb
+# Loading work.dec
+# Loading work.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: dec_tb.my_sem.b2v_inst3.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : D:/FPGA/Lab2/TestBench/dec/dec_tb.sv(66)
+#    Time: 15170 ns  Iteration: 1  Instance: /dec_tb
+# Break in Module dec_tb at D:/FPGA/Lab2/TestBench/dec/dec_tb.sv line 66
+# End time: 05:28:33 on Dec 18,2021, Elapsed time: 0:07:13
+# Errors: 0, Warnings: 0

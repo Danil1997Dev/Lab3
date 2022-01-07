@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm
+vdec_test
+!s110 1641555346
+!i10b 1
+!s100 SX6boo6:goI12QXg;;kM03
+IdhcYQ9zkWlNo[O:Sh;L9h0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1641542152
+8dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v
+Fdec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641555346.000000
+!s107 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v|
+!s90 -reportprogress|300|dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v|-work|dec_test_inst|
+!i113 1
+o-work dec_test_inst
+tCvgOpt 0

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 29 17:34:44 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : semafor
+Top-level Entity Name : dec
+Family : Cyclone IV E
+Total logic elements : 25
+    Total combinational functions : 23
+    Dedicated logic registers : 14
+Total registers : 14
+Total pins : 108
+Total virtual pins : 0
+Total memory bits : 128
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

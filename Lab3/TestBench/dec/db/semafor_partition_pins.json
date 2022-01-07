@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "red",
+					"strict" : false
+				},
+				{
+					"name" : "yellow",
+					"strict" : false
+				},
+				{
+					"name" : "green",
+					"strict" : false
+				},
+				{
+					"name" : "train",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clrn",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wr",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ram_wrdata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ctl_wrdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ctl_wr",
+					"strict" : false
+				},
+				{
+					"name" : "ctl_addr",
+					"strict" : false
+				},
+				{
+					"name" : "ctl_wrdata[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

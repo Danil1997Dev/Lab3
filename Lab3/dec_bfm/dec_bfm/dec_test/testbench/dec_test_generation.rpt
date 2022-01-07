@@ -1,0 +1,243 @@
+Info: Starting: Create testbench Platform Designer system
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test.ipx
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test.qsys --testbench=STANDARD --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading dec_bfm/dec_test.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding master [altera_avalon_mm_master_bfm 18.1]
+Progress: Parameterizing module master
+Progress: Adding sem [semafor 1.0]
+Progress: Parameterizing module sem
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index K:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
+Info: K:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index K:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: K:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0,00 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0,00 seconds
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\testbench\dec_test.ipx
+Progress: Loading dec_bfm/dec_test.qsys
+Progress: Loading dec_bfm/semafor_hw.tcl
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/* matched 19 files in 0,04 seconds
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/ip/**/* matched 0 files in 0,00 seconds
+Progress: Loading dec_test/dec_test.qsys
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/*/* matched 24 files in 0,00 seconds
+Info: D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\testbench\dec_test.ipx described 0 plugins, 3 paths, in 0,05 seconds
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/* matched 4 files in 0,05 seconds
+Info: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/*/* matched 0 files in 0,00 seconds
+Info: C:/Users/123/.altera.quartus/ip/18.1/**/* matched 0 files in 0,00 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0,00 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0,00 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0,00 seconds
+Info: Reading index K:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
+Info: K:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,18 seconds
+Info: K:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0,18 seconds
+Info: K:/intelfpga_lite/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index K:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
+Info: K:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0,01 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0,01 seconds
+Info: Reading index K:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
+Info: K:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0,01 seconds
+Info: K:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0,01 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0,00 seconds
+Info: K:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,25 seconds
+Info: K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,25 seconds
+Progress: 
+Progress: (2274) searching c:\intelfpga\18.1\probnik\oqpsk_mod (Quartus IP Search Path)
+Info: C:/intelfpga/18.1/probnik/oqpsk_mod matched 1 files in 0,00 seconds
+Progress: 
+Progress: (2274) searching c:\intelfpga_lite\16.1\clk (Quartus IP Search Path)
+Info: C:/intelfpga_lite/16.1/clk matched 1 files in 0,00 seconds
+Progress: 
+Progress: 
+Progress: 
+Progress: 
+Progress: 
+Info: Running script K:/intelfpga_lite/18.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: dec_test
+Info: TB_Gen: System design is: dec_test
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: get_interface_property sem_export EXPORT_OF
+Info: get_instance_property sem CLASS_NAME
+Info: get_instance_assignment sem testbench.partner.map.sem
+Info: send_message Info TB_Gen: Creating testbench system : dec_test_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : dec_test_tb with all standard BFMs
+Info: create_system dec_test_tb
+Info: add_instance dec_test_inst dec_test 
+Info: set_use_testbench_naming_pattern true dec_test
+Info: get_instance_interfaces dec_test_inst
+Info: get_instance_interface_property dec_test_inst clk CLASS_NAME
+Info: get_instance_interface_property dec_test_inst reset CLASS_NAME
+Info: get_instance_interface_property dec_test_inst sem_export CLASS_NAME
+Info: get_instance_interface_property dec_test_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property dec_test_inst clk CLASS_NAME
+Info: add_instance dec_test_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property dec_test_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dec_test_inst clk clockRate
+Info: set_instance_parameter_value dec_test_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value dec_test_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property dec_test_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property dec_test_inst clk CLASS_NAME
+Info: get_instance_interfaces dec_test_inst_clk_bfm
+Info: get_instance_interface_property dec_test_inst_clk_bfm clk CLASS_NAME
+Info: add_connection dec_test_inst_clk_bfm.clk dec_test_inst.clk
+Info: get_instance_interface_property dec_test_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property dec_test_inst reset CLASS_NAME
+Info: add_instance dec_test_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property dec_test_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports dec_test_inst reset
+Info: get_instance_interface_port_property dec_test_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property dec_test_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value dec_test_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value dec_test_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property dec_test_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces dec_test_inst_reset_bfm
+Info: get_instance_interface_property dec_test_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property dec_test_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property dec_test_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dec_test_inst reset associatedClock
+Info: get_instance_interfaces dec_test_inst_clk_bfm
+Info: get_instance_interface_property dec_test_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: dec_test_inst_reset_bfm is not associated to any clock; connecting dec_test_inst_reset_bfm to 'dec_test_inst_clk_bfm.clk'
+Warning: TB_Gen: dec_test_inst_reset_bfm is not associated to any clock; connecting dec_test_inst_reset_bfm to 'dec_test_inst_clk_bfm.clk'
+Info: add_connection dec_test_inst_clk_bfm.clk dec_test_inst_reset_bfm.clk
+Info: get_instance_interface_property dec_test_inst reset CLASS_NAME
+Info: get_instance_interfaces dec_test_inst_reset_bfm
+Info: get_instance_interface_property dec_test_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property dec_test_inst_reset_bfm reset CLASS_NAME
+Info: add_connection dec_test_inst_reset_bfm.reset dec_test_inst.reset
+Info: get_instance_interface_property dec_test_inst sem_export CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: sem_export
+Info: TB_Gen: conduit_end found: sem_export
+Info: get_instance_interface_property dec_test_inst sem_export CLASS_NAME
+Info: add_instance dec_test_inst_sem_export_bfm altera_conduit_bfm 
+Info: get_instance_property dec_test_inst_sem_export_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dec_test_inst sem_export associatedClock
+Info: get_instance_interface_parameter_value dec_test_inst sem_export associatedReset
+Info: get_instance_interface_ports dec_test_inst sem_export
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_green ROLE
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_green WIDTH
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_green DIRECTION
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_red ROLE
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_red WIDTH
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_red DIRECTION
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_train ROLE
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_train WIDTH
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_train DIRECTION
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_yellow ROLE
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_yellow WIDTH
+Info: get_instance_interface_port_property dec_test_inst sem_export sem_export_yellow DIRECTION
+Info: set_instance_parameter_value dec_test_inst_sem_export_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value dec_test_inst_sem_export_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value dec_test_inst_sem_export_bfm SIGNAL_ROLES green red train yellow
+Info: set_instance_parameter_value dec_test_inst_sem_export_bfm SIGNAL_WIDTHS 1 1 1 1
+Info: set_instance_parameter_value dec_test_inst_sem_export_bfm SIGNAL_DIRECTIONS input input output input
+Info: get_instance_property dec_test_inst_sem_export_bfm CLASS_NAME
+Info: get_instance_interface_property dec_test_inst sem_export CLASS_NAME
+Info: get_instance_interfaces dec_test_inst_sem_export_bfm
+Info: get_instance_interface_property dec_test_inst_sem_export_bfm conduit CLASS_NAME
+Info: add_connection dec_test_inst_sem_export_bfm.conduit dec_test_inst.sem_export
+Info: send_message Info TB_Gen: Saving testbench system: dec_test_tb.qsys
+Info: TB_Gen: Saving testbench system: dec_test_tb.qsys
+Info: save_system dec_test_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb.qsys
+Info: Done
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\testbench\dec_test_tb\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading testbench/dec_test_tb.qsys
+Progress: Reading input file
+Progress: Adding dec_test_inst [dec_test 1.0]
+Progress: Parameterizing module dec_test_inst
+Progress: Adding dec_test_inst_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module dec_test_inst_clk_bfm
+Progress: Adding dec_test_inst_reset_bfm [altera_avalon_reset_source 18.1]
+Progress: Parameterizing module dec_test_inst_reset_bfm
+Progress: Adding dec_test_inst_sem_export_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module dec_test_inst_sem_export_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dec_test_tb.dec_test_inst_clk_bfm: Elaborate: altera_clock_source
+Info: dec_test_tb.dec_test_inst_clk_bfm:            $Revision: #1 $
+Info: dec_test_tb.dec_test_inst_clk_bfm:            $Date: 2018/07/18 $
+Info: dec_test_tb.dec_test_inst_reset_bfm: Elaborate: altera_reset_source
+Info: dec_test_tb.dec_test_inst_reset_bfm:            $Revision: #1 $
+Info: dec_test_tb.dec_test_inst_reset_bfm:            $Date: 2018/07/18 $
+Info: dec_test_tb.dec_test_inst_reset_bfm: Reset is negatively asserted.
+Info: dec_test_tb: Generating dec_test_tb "dec_test_tb" for SIM_VERILOG
+Info: dec_test_inst: "dec_test_tb" instantiated dec_test "dec_test_inst"
+Info: dec_test_inst_clk_bfm: "dec_test_tb" instantiated altera_avalon_clock_source "dec_test_inst_clk_bfm"
+Info: dec_test_inst_reset_bfm: "dec_test_tb" instantiated altera_avalon_reset_source "dec_test_inst_reset_bfm"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv
+Info: dec_test_inst_sem_export_bfm: "dec_test_tb" instantiated altera_conduit_bfm "dec_test_inst_sem_export_bfm"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv
+Info: master: "dec_test_inst" instantiated altera_avalon_mm_master_bfm "master"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv
+Info: sem: "dec_test_inst" instantiated semafor "sem"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dec_test_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "dec_test_inst" instantiated altera_reset_controller "rst_controller"
+Info: master_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "master_m0_translator"
+Info: sem_ctl_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sem_ctl_slave_translator"
+Info: master_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "master_m0_agent"
+Info: sem_ctl_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sem_ctl_slave_agent"
+Info: sem_ctl_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sem_ctl_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: master_m0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "master_m0_limiter"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: dec_test_tb: Done "dec_test_tb" with 23 modules, 33 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test_tb.spd --output-directory=D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test_tb.spd --output-directory=D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	23 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

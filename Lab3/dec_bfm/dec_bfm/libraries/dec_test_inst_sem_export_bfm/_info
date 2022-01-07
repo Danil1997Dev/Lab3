@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm
+valtera_conduit_bfm
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 JDVJXTzYM<o?Ii:z8am[O0
+!s110 1641555345
+!i10b 1
+!s100 mN@RgHU:4jPhXYRS[=YP<0
+I_4bRDAnJSAWoZz@kz_:EI0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_conduit_bfm_sv_unit
+S1
+R0
+w1641542152
+8dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv
+Fdec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv
+L0 36
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641555345.000000
+!s107 dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv|
+!s90 -reportprogress|300|-sv|dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv|-L|altera_common_sv_packages|-work|dec_test_inst_sem_export_bfm|
+!i113 1
+o-sv -L altera_common_sv_packages -work dec_test_inst_sem_export_bfm
+tCvgOpt 0

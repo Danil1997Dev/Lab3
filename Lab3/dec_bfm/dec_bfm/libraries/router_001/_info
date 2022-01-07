@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm
+vdec_test_mm_interconnect_0_router_001
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1641555342
+!i10b 1
+!s100 __WTYHbO<A3F=<4XGO?3h3
+IbK4@IUKS]eC2Pc7=GkgD43
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 dec_test_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+Z5 w1641542158
+Z6 8dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv
+Z7 Fdec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv
+L0 84
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1641555342.000000
+Z10 !s107 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv|
+Z11 !s90 -reportprogress|300|-sv|dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv|-L|altera_common_sv_packages|-work|router_001|
+!i113 1
+Z12 o-sv -L altera_common_sv_packages -work router_001
+Z13 tCvgOpt 0
+vdec_test_mm_interconnect_0_router_001_default_decode
+R1
+R2
+!i10b 1
+!s100 XIWoCQLXei]ib>21?H``73
+I]0OV:8aGE[`OS6dV@;Ub41
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 45
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13

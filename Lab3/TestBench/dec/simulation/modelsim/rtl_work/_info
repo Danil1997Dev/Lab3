@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab2/Lab2/TestBench/dec/simulation/modelsim
+vdec
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1641135530
+!i10b 1
+!s100 7DM_AcT4W_gPE33BI0?>@1
+I2^LK`;=UYPFFaehG<3anJ3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 dec_sv_unit
+S1
+R0
+w1640870279
+8d:/intelFPGA/18.1/Lab2/Lab2/HDL/dec.sv
+Fd:/intelFPGA/18.1/Lab2/Lab2/HDL/dec.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1641135529.000000
+!s107 d:/intelFPGA/18.1/Lab2/Lab2/HDL/dec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+|d:/intelFPGA/18.1/Lab2/Lab2/HDL/dec.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+
+Z8 tCvgOpt 0
+vdec_tb
+R1
+R2
+!i10b 1
+!s100 FQQ5_Tg7zGj:BCL7KV^A21
+IHjPZ^;ai@@OC1NcXh0aRC2
+R3
+!s105 dec_tb_sv_unit
+S1
+R0
+w1639775521
+8d:/intelFPGA/18.1/Lab2/Lab2/TestBench/dec/dec_tb.sv
+Fd:/intelFPGA/18.1/Lab2/Lab2/TestBench/dec/dec_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1641135530.000000
+!s107 d:/intelFPGA/18.1/Lab2/Lab2/TestBench/dec/dec_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+|d:/intelFPGA/18.1/Lab2/Lab2/TestBench/dec/dec_tb.sv|
+!i113 1
+R6
+R7
+R8
+vperiodram
+!s110 1641135529
+!i10b 1
+!s100 b4fGngaz>NHCZ<lik;m1;0
+ID_zZADPYTc9z;FK^nHkhk0
+R3
+R0
+w1639793130
+8d:/intelFPGA/18.1/Lab2/Lab2/HDL/IP/periodram.v
+Fd:/intelFPGA/18.1/Lab2/Lab2/HDL/IP/periodram.v
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 d:/intelFPGA/18.1/Lab2/Lab2/HDL/IP/periodram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+|d:/intelFPGA/18.1/Lab2/Lab2/HDL/IP/periodram.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+
+R8

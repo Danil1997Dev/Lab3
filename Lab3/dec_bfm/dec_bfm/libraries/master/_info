@@ -1,0 +1,37 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm
+valtera_avalon_mm_master_bfm
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 JDVJXTzYM<o?Ii:z8am[O0
+DXx25 altera_common_sv_packages 13 avalon_mm_pkg 0 22 92nW6Z_XG7dFc[>zQQm4_1
+DXx25 altera_common_sv_packages 20 avalon_utilities_pkg 0 22 onA794m2AmFYXgza?aVZX3
+!s110 1641555345
+!i10b 1
+!s100 QLK6JKe8O[P5zPXb[<Jf=1
+IAEZXJARzi4jXo9F]OVFQX3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_mm_master_bfm_sv_unit
+S1
+R0
+w1641542152
+8dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+Fdec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+L0 78
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641555345.000000
+!s107 dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv|
+!s90 -reportprogress|300|-sv|dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv|-L|altera_common_sv_packages|-work|master|
+!i113 1
+o-sv -L altera_common_sv_packages -work master
+tCvgOpt 0

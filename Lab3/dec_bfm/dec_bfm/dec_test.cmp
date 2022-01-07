@@ -1,0 +1,11 @@
+	component dec_test is
+		port (
+			clk_clk           : in  std_logic := 'X'; -- clk
+			reset_reset_n     : in  std_logic := 'X'; -- reset_n
+			sem_export_train  : in  std_logic := 'X'; -- train
+			sem_export_red    : out std_logic;        -- red
+			sem_export_yellow : out std_logic;        -- yellow
+			sem_export_green  : out std_logic         -- green
+		);
+	end component dec_test;
+

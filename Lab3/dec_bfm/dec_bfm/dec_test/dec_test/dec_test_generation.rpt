@@ -1,0 +1,19 @@
+Info: Starting: Create simulation model
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\dec_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\dec_test\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading dec_test/dec_test.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding master [altera_avalon_mm_master_bfm 18.1]
+Info: altera_avalon_mm_master_bfm: Preferred Simulation Language is set to None.
+Progress: Parameterizing module master
+Progress: Adding sem [semafor 1.0]
+Warning: sem: Component type semafor is not in the library
+Progress: Parameterizing module sem
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Error: dec_test.sem: Component semafor 1.0 not found or could not be instantiated
+Info: dec_test: Generating dec_test "dec_test" for SIM_VERILOG
+Error: null

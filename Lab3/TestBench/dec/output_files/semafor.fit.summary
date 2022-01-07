@@ -1,0 +1,16 @@
+Fitter Status : Failed - Wed Dec 29 17:34:51 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : semafor
+Top-level Entity Name : dec
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 26 / 6,272 ( < 1 % )
+    Total combinational functions : 24 / 6,272 ( < 1 % )
+    Dedicated logic registers : 14 / 6,272 ( < 1 % )
+Total registers : 14
+Total pins : 108 / 92 ( 117 % )
+Total virtual pins : 0
+Total memory bits : 128 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

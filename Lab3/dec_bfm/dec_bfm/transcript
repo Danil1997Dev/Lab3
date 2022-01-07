@@ -1,0 +1,2024 @@
+# Reading K:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+do run_simulation.tcl
+# dec_test
+# dec_test/testbench
+# tb
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:20 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:01:20 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:20 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_mm_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_mm_pkg
+# -- Importing package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:01:20 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:21 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_utilities_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_utilities_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:01:21 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:21 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 19:01:21 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:21 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter
+# End time: 19:01:21 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:21 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_mux
+# End time: 19:01:21 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:21 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:01:21 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:22 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_demux
+# End time: 19:01:22 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:22 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_mux
+# End time: 19:01:22 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:22 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:01:22 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:22 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_demux
+# End time: 19:01:22 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:22 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 19:01:22 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:23 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_reorder_memory.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_reorder_memory
+# -- Compiling module memory_pointer_controller
+# 
+# Top level modules:
+# 	altera_merlin_reorder_memory
+# End time: 19:01:23 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:23 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:01:23 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:23 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 19:01:23 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:23 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module dec_test_mm_interconnect_0_router_001_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router_001
+# End time: 19:01:24 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:24 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module dec_test_mm_interconnect_0_router_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router
+# End time: 19:01:24 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:24 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -work sem_ctl_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:01:24 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:24 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 19:01:24 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:25 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 19:01:25 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:25 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work master_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 19:01:25 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:25 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work sem_ctl_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 19:01:25 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:25 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work master_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 19:01:25 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:26 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 19:01:26 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:26 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 19:01:26 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:26 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module dec_test_mm_interconnect_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0
+# End time: 19:01:26 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:26 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv -L altera_common_sv_packages -work sem 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 19:01:26 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:26 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/periodram.v -work sem 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 19:01:26 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv -L altera_common_sv_packages -work master 
+# -- Compiling module altera_avalon_mm_master_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# -- Importing package altera_common_sv_packages.avalon_utilities_pkg
+# 
+# Top level modules:
+# 	altera_avalon_mm_master_bfm
+# End time: 19:01:27 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work dec_test_inst_sem_export_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 19:01:27 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work dec_test_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 19:01:27 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work dec_test_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 19:01:27 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v -work dec_test_inst 
+# -- Compiling module dec_test
+# 
+# Top level modules:
+# 	dec_test
+# End time: 19:01:27 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:27 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/dec_test_tb.v 
+# -- Compiling module dec_test_tb
+# 
+# Top level modules:
+# 	dec_test_tb
+# End time: 19:01:28 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:28 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:01:28 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:01:28 on Jan 07,2022
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:01:28 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:01:28 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Error: (vsim-3043) test_program.sv(50): Unresolved reference to 'dec_test_inst_sem_bfm' in tb.dut.dec_test_inst_sem_bfm.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/tp File: test_program.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_simulation.tcl PAUSED at line 18
+do run_simulation.tcl
+# dec_test
+# dec_test/testbench
+# tb
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:52 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:31:52 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:52 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_mm_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_mm_pkg
+# -- Importing package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:31:52 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_utilities_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_utilities_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_mux
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:53 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_demux
+# End time: 19:31:53 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:54 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_mux
+# End time: 19:31:54 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:54 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:31:54 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:54 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_demux
+# End time: 19:31:54 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:54 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 19:31:54 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:55 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_reorder_memory.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_reorder_memory
+# -- Compiling module memory_pointer_controller
+# 
+# Top level modules:
+# 	altera_merlin_reorder_memory
+# End time: 19:31:55 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:55 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:31:55 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:55 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 19:31:55 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:55 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module dec_test_mm_interconnect_0_router_001_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router_001
+# End time: 19:31:56 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:56 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module dec_test_mm_interconnect_0_router_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router
+# End time: 19:31:56 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:56 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -work sem_ctl_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:31:56 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:56 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 19:31:56 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:57 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 19:31:57 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:57 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work master_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 19:31:57 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:57 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work sem_ctl_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 19:31:57 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:57 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work master_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 19:31:57 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:57 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 19:31:57 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:58 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 19:31:58 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:58 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module dec_test_mm_interconnect_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0
+# End time: 19:31:58 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:58 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv -L altera_common_sv_packages -work sem 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 19:31:58 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:58 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/periodram.v -work sem 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 19:31:58 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:58 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv -L altera_common_sv_packages -work master 
+# -- Compiling module altera_avalon_mm_master_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# -- Importing package altera_common_sv_packages.avalon_utilities_pkg
+# 
+# Top level modules:
+# 	altera_avalon_mm_master_bfm
+# End time: 19:31:58 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work dec_test_inst_sem_export_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work dec_test_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work dec_test_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v -work dec_test_inst 
+# -- Compiling module dec_test
+# 
+# Top level modules:
+# 	dec_test
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/dec_test_tb.v 
+# -- Compiling module dec_test_tb
+# 
+# Top level modules:
+# 	dec_test_tb
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:31:59 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:31:59 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:32:00 on Jan 07,2022
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:32:00 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:01:28 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Error: (vsim-3043) test_program.sv(50): Unresolved reference to 'bfm' in tb.dut.dec_test_inst.sem.bfm.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/tp File: test_program.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_simulation.tcl PAUSED at line 18
+do run_simulation.tcl
+# dec_test
+# dec_test/testbench
+# tb
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:39 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:35:39 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:39 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_mm_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_mm_pkg
+# -- Importing package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:35:39 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:39 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/avalon_utilities_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package avalon_utilities_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:40 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:40 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module dec_test_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_avalon_st_adapter
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:40 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_mux
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:40 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:40 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module dec_test_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_rsp_demux
+# End time: 19:35:40 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:41 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_mux
+# End time: 19:35:41 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:41 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 19:35:41 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:41 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module dec_test_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_cmd_demux
+# End time: 19:35:41 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:41 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 19:35:41 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:42 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_reorder_memory.sv -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_merlin_reorder_memory
+# -- Compiling module memory_pointer_controller
+# 
+# Top level modules:
+# 	altera_merlin_reorder_memory
+# End time: 19:35:42 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:42 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:35:42 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:42 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work master_m0_limiter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 19:35:42 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:42 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module dec_test_mm_interconnect_0_router_001_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router_001
+# End time: 19:35:42 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:43 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module dec_test_mm_interconnect_0_router_default_decode
+# -- Compiling module dec_test_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0_router
+# End time: 19:35:43 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:43 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_sc_fifo.v -work sem_ctl_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 19:35:43 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:43 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 19:35:43 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:43 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work sem_ctl_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 19:35:43 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:43 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work master_m0_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 19:35:44 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:44 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work sem_ctl_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 19:35:44 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:44 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work master_m0_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 19:35:44 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:44 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 19:35:44 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:44 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 19:35:44 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:44 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module dec_test_mm_interconnect_0
+# 
+# Top level modules:
+# 	dec_test_mm_interconnect_0
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:45 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv -L altera_common_sv_packages -work sem 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:45 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/periodram.v -work sem 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:45 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv -L altera_common_sv_packages -work master 
+# -- Compiling module altera_avalon_mm_master_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# -- Importing package altera_common_sv_packages.avalon_utilities_pkg
+# 
+# Top level modules:
+# 	altera_avalon_mm_master_bfm
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:45 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work dec_test_inst_sem_export_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:45 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work dec_test_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 19:35:45 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Jan 07,2022
+# vlog -reportprogress 300 -sv dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work dec_test_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 19:35:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v -work dec_test_inst 
+# -- Compiling module dec_test
+# 
+# Top level modules:
+# 	dec_test
+# End time: 19:35:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Jan 07,2022
+# vlog -reportprogress 300 dec_test/testbench/dec_test_tb/simulation/dec_test_tb.v 
+# -- Compiling module dec_test_tb
+# 
+# Top level modules:
+# 	dec_test_tb
+# End time: 19:35:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:35:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Jan 07,2022
+# vlog -reportprogress 300 -sv tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:35:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:01:28 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3839) dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(23): Variable '/tb/dut/dec_test_inst/sem/divisor', driven via a port connection, is multiply driven. See dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(126).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/sem File: dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: - Hello from altera_avalon_mm_master_bfm
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_ADDRESS_W             = 32
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_SYMBOL_W              = 8
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_NUMSYMBOLS            = 4
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_BURSTCOUNT_W          = 3
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   REGISTER_WAITREQUEST     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_FIX_READ_LATENCY      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_READS     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_WRITES    = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ                 = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE                = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_ADDRESS              = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BYTE_ENABLE          = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BURSTCOUNT           = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA            = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA_VALID      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE_DATA           = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_TRANSFER       = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_BURST_TRANSFER = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WAIT_REQUEST         = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_LOCK                 = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_DEBUGACCESS          = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_TRANSACTIONID        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITERESPONSE        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READRESPONSE         = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_CLKEN                = 0
+#                    0: INFO: ------------------------------------------------------------
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb.dut.dec_test_inst.sem.b2v_inst3.altsyncram_component.m_default.altsyncram_inst
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.reset_assert: Reset asserted
+#                    0:  verbosity_pkg.set_verbosity: Setting Verbosity level=4 (VERBOSITY_INFO)
+#               990000: INFO: tb.dut.dec_test_inst_reset_bfm.reset_deassert: Reset deasserted
+#              1930000: INFO: At 1930000ns red: 1, yellow: 0, green: 0
+#              2130000: INFO: At 2130000ns red: 1, yellow: 0, green: 0
+#              2330000: INFO: At 2330000ns red: 1, yellow: 0, green: 0
+#              2530000: INFO: At 2530000ns red: 1, yellow: 0, green: 0
+#              2730000: INFO: At 2730000ns red: 1, yellow: 0, green: 0
+#              2930000: INFO: At 2930000ns red: 0, yellow: 1, green: 0
+#              3130000: INFO: At 3130000ns red: 0, yellow: 1, green: 0
+#              3330000: INFO: At 3330000ns red: 0, yellow: 1, green: 0
+#              3530000: INFO: At 3530000ns red: 0, yellow: 1, green: 0
+#              3730000: INFO: At 3730000ns red: 0, yellow: 1, green: 0
+#              3930000: INFO: At 3930000ns red: 0, yellow: 1, green: 0
+#              4130000: INFO: At 4130000ns red: 0, yellow: 1, green: 0
+#              4330000: INFO: At 4330000ns red: 0, yellow: 1, green: 0
+#              4530000: INFO: At 4530000ns red: 0, yellow: 1, green: 1
+#              4730000: INFO: At 4730000ns red: 0, yellow: 1, green: 1
+#              4930000: INFO: At 4930000ns red: 0, yellow: 1, green: 1
+#              5130000: INFO: At 5130000ns red: 0, yellow: 1, green: 1
+#              5330000: INFO: At 5330000ns red: 0, yellow: 1, green: 1
+#              5530000: INFO: At 5530000ns red: 0, yellow: 1, green: 1
+#              5730000: INFO: At 5730000ns red: 0, yellow: 0, green: 1
+#              6370000: INFO: At 6370000ns red: 1, yellow: 0, green: 0
+#              6570000: INFO: At 6570000ns red: 1, yellow: 0, green: 0
+#              6770000: INFO: At 6770000ns red: 1, yellow: 0, green: 0
+#              6970000: INFO: At 6970000ns red: 1, yellow: 0, green: 0
+#              7170000: INFO: At 7170000ns red: 1, yellow: 0, green: 0
+#              7370000: INFO: At 7370000ns red: 1, yellow: 0, green: 0
+#              7570000: INFO: At 7570000ns red: 1, yellow: 0, green: 0
+#              7770000: INFO: At 7770000ns red: 1, yellow: 0, green: 0
+#              7970000: INFO: At 7970000ns red: 1, yellow: 0, green: 0
+#              8170000: INFO: At 8170000ns red: 1, yellow: 0, green: 0
+#              8370000: INFO: At 8370000ns red: 0, yellow: 1, green: 0
+#              8570000: INFO: At 8570000ns red: 0, yellow: 1, green: 1
+#              8770000: INFO: At 8770000ns red: 0, yellow: 1, green: 1
+#              8970000: INFO: At 8970000ns red: 0, yellow: 1, green: 1
+#              9170000: INFO: At 9170000ns red: 0, yellow: 0, green: 1
+#              9810000: INFO: At 9810000ns red: 1, yellow: 0, green: 0
+#             10010000: INFO: At 10010000ns red: 1, yellow: 0, green: 0
+#             10210000: INFO: At 10210000ns red: 1, yellow: 0, green: 0
+#             10410000: INFO: At 10410000ns red: 0, yellow: 1, green: 0
+#             10610000: INFO: At 10610000ns red: 0, yellow: 1, green: 0
+#             10810000: INFO: At 10810000ns red: 0, yellow: 1, green: 0
+#             11010000: INFO: At 11010000ns red: 0, yellow: 1, green: 0
+#             11210000: INFO: At 11210000ns red: 0, yellow: 1, green: 1
+#             11410000: INFO: At 11410000ns red: 0, yellow: 1, green: 1
+#             11610000: INFO: At 11610000ns red: 0, yellow: 1, green: 1
+#             11810000: INFO: At 11810000ns red: 0, yellow: 0, green: 1
+#             12450000: INFO: At 12450000ns red: 1, yellow: 0, green: 0
+#             12650000: INFO: At 12650000ns red: 1, yellow: 0, green: 0
+#             12850000: INFO: At 12850000ns red: 0, yellow: 1, green: 0
+#             13050000: INFO: At 13050000ns red: 0, yellow: 1, green: 0
+#             13250000: INFO: At 13250000ns red: 0, yellow: 1, green: 0
+#             13450000: INFO: At 13450000ns red: 0, yellow: 1, green: 0
+#             13650000: INFO: At 13650000ns red: 0, yellow: 1, green: 0
+#             13850000: INFO: At 13850000ns red: 0, yellow: 1, green: 1
+#             14050000: INFO: At 14050000ns red: 0, yellow: 1, green: 1
+#             14250000: INFO: At 14250000ns red: 0, yellow: 1, green: 1
+#             14450000: INFO: At 14450000ns red: 0, yellow: 1, green: 1
+#             14650000: INFO: At 14650000ns red: 0, yellow: 1, green: 1
+#             14850000: INFO: At 14850000ns red: 0, yellow: 1, green: 1
+#             15050000: INFO: At 15050000ns red: 0, yellow: 1, green: 1
+#             15250000: INFO: At 15250000ns red: 0, yellow: 0, green: 1
+#             15250000: INFO: Test has completed
+# ** Note: $stop    : test_program.sv(126)
+#    Time: 15250 ns  Iteration: 1  Instance: /tb/tp
+# Break in Module test_program at test_program.sv line 126
+rerun
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:39 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:49:39 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# End time: 19:49:47 on Jan 07,2022, Elapsed time: 0:48:19
+# Errors: 2, Warnings: 8
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:49:47 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3839) dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(23): Variable '/tb/dut/dec_test_inst/sem/divisor', driven via a port connection, is multiply driven. See dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(126).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/sem File: dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: - Hello from altera_avalon_mm_master_bfm
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_ADDRESS_W             = 32
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_SYMBOL_W              = 8
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_NUMSYMBOLS            = 4
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_BURSTCOUNT_W          = 3
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   REGISTER_WAITREQUEST     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_FIX_READ_LATENCY      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_READS     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_WRITES    = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ                 = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE                = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_ADDRESS              = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BYTE_ENABLE          = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BURSTCOUNT           = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA            = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA_VALID      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE_DATA           = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_TRANSFER       = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_BURST_TRANSFER = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WAIT_REQUEST         = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_LOCK                 = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_DEBUGACCESS          = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_TRANSACTIONID        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITERESPONSE        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READRESPONSE         = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_CLKEN                = 0
+#                    0: INFO: ------------------------------------------------------------
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb.dut.dec_test_inst.sem.b2v_inst3.altsyncram_component.m_default.altsyncram_inst
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.reset_assert: Reset asserted
+#                    0:  verbosity_pkg.set_verbosity: Setting Verbosity level=4 (VERBOSITY_INFO)
+#               990000: INFO: tb.dut.dec_test_inst_reset_bfm.reset_deassert: Reset deasserted
+#              2030000: INFO: At 2030000ns red: 1, yellow: 0, green: 0
+#              2230000: INFO: At 2230000ns red: 1, yellow: 0, green: 0
+#              2430000: INFO: At 2430000ns red: 1, yellow: 0, green: 0
+#              2630000: INFO: At 2630000ns red: 1, yellow: 0, green: 0
+#              2830000: INFO: At 2830000ns red: 1, yellow: 0, green: 0
+#              3030000: INFO: At 3030000ns red: 0, yellow: 1, green: 0
+#              3230000: INFO: At 3230000ns red: 0, yellow: 1, green: 0
+#              3430000: INFO: At 3430000ns red: 0, yellow: 1, green: 0
+#              3630000: INFO: At 3630000ns red: 0, yellow: 1, green: 0
+#              3830000: INFO: At 3830000ns red: 0, yellow: 1, green: 0
+#              4030000: INFO: At 4030000ns red: 0, yellow: 1, green: 0
+#              4230000: INFO: At 4230000ns red: 0, yellow: 1, green: 0
+#              4430000: INFO: At 4430000ns red: 0, yellow: 1, green: 0
+#              4630000: INFO: At 4630000ns red: 0, yellow: 1, green: 1
+#              4830000: INFO: At 4830000ns red: 0, yellow: 1, green: 1
+#              5030000: INFO: At 5030000ns red: 0, yellow: 1, green: 1
+#              5230000: INFO: At 5230000ns red: 0, yellow: 1, green: 1
+#              5430000: INFO: At 5430000ns red: 0, yellow: 1, green: 1
+#              5630000: INFO: At 5630000ns red: 0, yellow: 1, green: 1
+#              5830000: INFO: At 5830000ns red: 0, yellow: 0, green: 1
+#              6470000: INFO: At 6470000ns red: 1, yellow: 0, green: 0
+#              6670000: INFO: At 6670000ns red: 1, yellow: 0, green: 0
+#              6870000: INFO: At 6870000ns red: 1, yellow: 0, green: 0
+#              7070000: INFO: At 7070000ns red: 1, yellow: 0, green: 0
+#              7270000: INFO: At 7270000ns red: 1, yellow: 0, green: 0
+#              7470000: INFO: At 7470000ns red: 1, yellow: 0, green: 0
+#              7670000: INFO: At 7670000ns red: 1, yellow: 0, green: 0
+#              7870000: INFO: At 7870000ns red: 1, yellow: 0, green: 0
+#              8070000: INFO: At 8070000ns red: 1, yellow: 0, green: 0
+#              8270000: INFO: At 8270000ns red: 1, yellow: 0, green: 0
+#              8470000: INFO: At 8470000ns red: 0, yellow: 1, green: 0
+#              8670000: INFO: At 8670000ns red: 0, yellow: 1, green: 1
+#              8870000: INFO: At 8870000ns red: 0, yellow: 1, green: 1
+#              9070000: INFO: At 9070000ns red: 0, yellow: 1, green: 1
+#              9270000: INFO: At 9270000ns red: 0, yellow: 0, green: 1
+#              9910000: INFO: At 9910000ns red: 1, yellow: 0, green: 0
+#             10110000: INFO: At 10110000ns red: 1, yellow: 0, green: 0
+#             10310000: INFO: At 10310000ns red: 1, yellow: 0, green: 0
+#             10510000: INFO: At 10510000ns red: 0, yellow: 1, green: 0
+#             10710000: INFO: At 10710000ns red: 0, yellow: 1, green: 0
+#             10910000: INFO: At 10910000ns red: 0, yellow: 1, green: 0
+#             11110000: INFO: At 11110000ns red: 0, yellow: 1, green: 0
+#             11310000: INFO: At 11310000ns red: 0, yellow: 1, green: 1
+#             11510000: INFO: At 11510000ns red: 0, yellow: 1, green: 1
+#             11710000: INFO: At 11710000ns red: 0, yellow: 1, green: 1
+#             11910000: INFO: At 11910000ns red: 0, yellow: 0, green: 1
+#             12550000: INFO: At 12550000ns red: 1, yellow: 0, green: 0
+#             12750000: INFO: At 12750000ns red: 1, yellow: 0, green: 0
+#             12950000: INFO: At 12950000ns red: 0, yellow: 1, green: 0
+#             13150000: INFO: At 13150000ns red: 0, yellow: 1, green: 0
+#             13350000: INFO: At 13350000ns red: 0, yellow: 1, green: 0
+#             13550000: INFO: At 13550000ns red: 0, yellow: 1, green: 0
+#             13750000: INFO: At 13750000ns red: 0, yellow: 1, green: 0
+#             13950000: INFO: At 13950000ns red: 0, yellow: 1, green: 1
+#             14150000: INFO: At 14150000ns red: 0, yellow: 1, green: 1
+#             14350000: INFO: At 14350000ns red: 0, yellow: 1, green: 1
+#             14550000: INFO: At 14550000ns red: 0, yellow: 1, green: 1
+#             14750000: INFO: At 14750000ns red: 0, yellow: 1, green: 1
+#             14950000: INFO: At 14950000ns red: 0, yellow: 1, green: 1
+#             15150000: INFO: At 15150000ns red: 0, yellow: 1, green: 1
+#             15350000: INFO: At 15350000ns red: 0, yellow: 0, green: 1
+#             15350000: INFO: Test has completed
+# ** Note: $stop    : test_program.sv(126)
+#    Time: 15350 ns  Iteration: 1  Instance: /tb/tp
+# Break in Module test_program at test_program.sv line 126
+rerun
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:52:36 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:52:36 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# End time: 19:52:40 on Jan 07,2022, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 4
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:52:40 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3839) dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(23): Variable '/tb/dut/dec_test_inst/sem/divisor', driven via a port connection, is multiply driven. See dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(126).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/sem File: dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: - Hello from altera_avalon_mm_master_bfm
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_ADDRESS_W             = 32
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_SYMBOL_W              = 8
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_NUMSYMBOLS            = 4
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_BURSTCOUNT_W          = 3
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   REGISTER_WAITREQUEST     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_FIX_READ_LATENCY      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_READS     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_WRITES    = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ                 = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE                = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_ADDRESS              = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BYTE_ENABLE          = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BURSTCOUNT           = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA            = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA_VALID      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE_DATA           = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_TRANSFER       = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_BURST_TRANSFER = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WAIT_REQUEST         = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_LOCK                 = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_DEBUGACCESS          = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_TRANSACTIONID        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITERESPONSE        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READRESPONSE         = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_CLKEN                = 0
+#                    0: INFO: ------------------------------------------------------------
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb.dut.dec_test_inst.sem.b2v_inst3.altsyncram_component.m_default.altsyncram_inst
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.reset_assert: Reset asserted
+#                    0:  verbosity_pkg.set_verbosity: Setting Verbosity level=4 (VERBOSITY_INFO)
+#               990000: INFO: tb.dut.dec_test_inst_reset_bfm.reset_deassert: Reset deasserted
+#              2150000: INFO: At 2150000ns red: 1, yellow: 0, green: 0
+#              2350000: INFO: At 2350000ns red: 1, yellow: 0, green: 0
+#              2550000: INFO: At 2550000ns red: 1, yellow: 0, green: 0
+#              2750000: INFO: At 2750000ns red: 1, yellow: 0, green: 0
+#              2950000: INFO: At 2950000ns red: 1, yellow: 0, green: 0
+#              3150000: INFO: At 3150000ns red: 0, yellow: 1, green: 0
+#              3350000: INFO: At 3350000ns red: 0, yellow: 1, green: 0
+#              3550000: INFO: At 3550000ns red: 0, yellow: 1, green: 0
+#              3750000: INFO: At 3750000ns red: 0, yellow: 1, green: 0
+#              3950000: INFO: At 3950000ns red: 0, yellow: 1, green: 0
+#              4150000: INFO: At 4150000ns red: 0, yellow: 1, green: 0
+#              4350000: INFO: At 4350000ns red: 0, yellow: 1, green: 0
+#              4550000: INFO: At 4550000ns red: 0, yellow: 1, green: 0
+#              4750000: INFO: At 4750000ns red: 0, yellow: 1, green: 1
+#              4950000: INFO: At 4950000ns red: 0, yellow: 1, green: 1
+#              5150000: INFO: At 5150000ns red: 0, yellow: 1, green: 1
+#              5350000: INFO: At 5350000ns red: 0, yellow: 1, green: 1
+#              5550000: INFO: At 5550000ns red: 0, yellow: 1, green: 1
+#              5750000: INFO: At 5750000ns red: 0, yellow: 1, green: 1
+#              5950000: INFO: At 5950000ns red: 0, yellow: 0, green: 1
+#              6610000: INFO: At 6610000ns red: 1, yellow: 0, green: 0
+#              6810000: INFO: At 6810000ns red: 1, yellow: 0, green: 0
+#              7010000: INFO: At 7010000ns red: 1, yellow: 0, green: 0
+#              7210000: INFO: At 7210000ns red: 1, yellow: 0, green: 0
+#              7410000: INFO: At 7410000ns red: 1, yellow: 0, green: 0
+#              7610000: INFO: At 7610000ns red: 1, yellow: 0, green: 0
+#              7810000: INFO: At 7810000ns red: 1, yellow: 0, green: 0
+#              8010000: INFO: At 8010000ns red: 1, yellow: 0, green: 0
+#              8210000: INFO: At 8210000ns red: 1, yellow: 0, green: 0
+#              8410000: INFO: At 8410000ns red: 1, yellow: 0, green: 0
+#              8610000: INFO: At 8610000ns red: 0, yellow: 1, green: 0
+#              8810000: INFO: At 8810000ns red: 0, yellow: 1, green: 1
+#              9010000: INFO: At 9010000ns red: 0, yellow: 1, green: 1
+#              9210000: INFO: At 9210000ns red: 0, yellow: 1, green: 1
+#              9410000: INFO: At 9410000ns red: 0, yellow: 0, green: 1
+#             10070000: INFO: At 10070000ns red: 1, yellow: 0, green: 0
+#             10270000: INFO: At 10270000ns red: 1, yellow: 0, green: 0
+#             10470000: INFO: At 10470000ns red: 1, yellow: 0, green: 0
+#             10670000: INFO: At 10670000ns red: 0, yellow: 1, green: 0
+#             10870000: INFO: At 10870000ns red: 0, yellow: 1, green: 0
+#             11070000: INFO: At 11070000ns red: 0, yellow: 1, green: 0
+#             11270000: INFO: At 11270000ns red: 0, yellow: 1, green: 0
+#             11470000: INFO: At 11470000ns red: 0, yellow: 1, green: 1
+#             11670000: INFO: At 11670000ns red: 0, yellow: 1, green: 1
+#             11870000: INFO: At 11870000ns red: 0, yellow: 1, green: 1
+#             12070000: INFO: At 12070000ns red: 0, yellow: 0, green: 1
+#             12730000: INFO: At 12730000ns red: 1, yellow: 0, green: 0
+#             12930000: INFO: At 12930000ns red: 1, yellow: 0, green: 0
+#             13130000: INFO: At 13130000ns red: 0, yellow: 1, green: 0
+#             13330000: INFO: At 13330000ns red: 0, yellow: 1, green: 0
+#             13530000: INFO: At 13530000ns red: 0, yellow: 1, green: 0
+#             13730000: INFO: At 13730000ns red: 0, yellow: 1, green: 0
+#             13930000: INFO: At 13930000ns red: 0, yellow: 1, green: 0
+#             14130000: INFO: At 14130000ns red: 0, yellow: 1, green: 1
+#             14330000: INFO: At 14330000ns red: 0, yellow: 1, green: 1
+#             14530000: INFO: At 14530000ns red: 0, yellow: 1, green: 1
+#             14730000: INFO: At 14730000ns red: 0, yellow: 1, green: 1
+#             14930000: INFO: At 14930000ns red: 0, yellow: 1, green: 1
+#             15130000: INFO: At 15130000ns red: 0, yellow: 1, green: 1
+#             15330000: INFO: At 15330000ns red: 0, yellow: 1, green: 1
+#             15530000: INFO: At 15530000ns red: 0, yellow: 0, green: 1
+#             15530000: INFO: Test has completed
+# ** Note: $stop    : test_program.sv(126)
+#    Time: 15530 ns  Iteration: 1  Instance: /tb/tp
+# Break in Module test_program at test_program.sv line 126
+rerun
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:46 on Jan 07,2022
+# vlog -reportprogress 300 -sv test_program.sv -L altera_common_sv_packages 
+# -- Compiling module test_program
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# -- Importing package altera_common_sv_packages.avalon_mm_pkg
+# 
+# Top level modules:
+# 	test_program
+# End time: 19:53:46 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab_debug
+# End time: 19:53:54 on Jan 07,2022, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 4
+# vsim -novopt -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L master_m0_limiter -L router_001 -L router -L sem_ctl_slave_agent_rsp_fifo -L sem_ctl_slave_agent -L master_m0_agent -L sem_ctl_slave_translator -L master_m0_translator -L rst_controller -L mm_interconnect_0 -L sem -L master -L dec_test_inst_sem_export_bfm -L dec_test_inst_reset_bfm -L dec_test_inst_clk_bfm -L dec_test_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver tb 
+# Start time: 19:53:54 on Jan 07,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.dec_test_tb
+# Loading dec_test_inst.dec_test
+# Loading altera_common_sv_packages.avalon_utilities_pkg
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading altera_common_sv_packages.avalon_mm_pkg
+# Loading master.altera_avalon_mm_master_bfm
+# Loading sem.dec
+# Loading sem.periodram
+# Loading altera_mf_ver.altsyncram
+# Loading mm_interconnect_0.dec_test_mm_interconnect_0
+# Loading master_m0_translator.altera_merlin_master_translator
+# Loading sem_ctl_slave_translator.altera_merlin_slave_translator
+# Loading master_m0_agent.altera_merlin_master_agent
+# Loading sem_ctl_slave_agent.altera_merlin_slave_agent
+# Loading sem_ctl_slave_agent.altera_merlin_burst_uncompressor
+# Loading master_m0_limiter.altera_avalon_sc_fifo
+# Loading router.dec_test_mm_interconnect_0_router
+# Loading router.dec_test_mm_interconnect_0_router_default_decode
+# Loading router_001.dec_test_mm_interconnect_0_router_001
+# Loading router_001.dec_test_mm_interconnect_0_router_001_default_decode
+# Loading master_m0_limiter.altera_merlin_traffic_limiter
+# Loading cmd_demux.dec_test_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.dec_test_mm_interconnect_0_cmd_mux
+# Loading rsp_demux.dec_test_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.dec_test_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.dec_test_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.dec_test_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading rst_controller.altera_reset_controller
+# Loading dec_test_inst_clk_bfm.altera_avalon_clock_source
+# Loading dec_test_inst_reset_bfm.altera_avalon_reset_source
+# Loading dec_test_inst_sem_export_bfm.altera_conduit_bfm
+# Loading work.test_program
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Too few port connections. Expected 25, found 24.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/master File: dec_test/testbench/dec_test_tb/simulation/submodules/altera_avalon_mm_master_bfm.sv
+# ** Warning: (vsim-3722) dec_test/testbench/dec_test_tb/simulation/submodules/dec_test.v(66): [TFMPC] - Missing connection for port 'avm_writeresponserequest'.
+# ** Warning: (vsim-3839) dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(23): Variable '/tb/dut/dec_test_inst/sem/divisor', driven via a port connection, is multiply driven. See dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv(126).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/dec_test_inst/sem File: dec_test/testbench/dec_test_tb/simulation/submodules/dec.sv
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: - Hello from altera_avalon_mm_master_bfm
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_ADDRESS_W             = 32
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_SYMBOL_W              = 8
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_NUMSYMBOLS            = 4
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_BURSTCOUNT_W          = 3
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   REGISTER_WAITREQUEST     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_FIX_READ_LATENCY      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_READS     = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   AV_MAX_PENDING_WRITES    = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ                 = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE                = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_ADDRESS              = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BYTE_ENABLE          = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BURSTCOUNT           = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA            = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READ_DATA_VALID      = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITE_DATA           = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_TRANSFER       = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_BEGIN_BURST_TRANSFER = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WAIT_REQUEST         = 1
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_LOCK                 = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_DEBUGACCESS          = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_TRANSACTIONID        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_WRITERESPONSE        = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_READRESPONSE         = 0
+#                    0: INFO: tb.dut.dec_test_inst.master.__hello: -   USE_CLKEN                = 0
+#                    0: INFO: ------------------------------------------------------------
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: tb.dut.dec_test_inst.sem.b2v_inst3.altsyncram_component.m_default.altsyncram_inst
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: tb.dut.dec_test_inst_reset_bfm.reset_assert: Reset asserted
+#                    0:  verbosity_pkg.set_verbosity: Setting Verbosity level=4 (VERBOSITY_INFO)
+#               990000: INFO: tb.dut.dec_test_inst_reset_bfm.reset_deassert: Reset deasserted
+#              1930000: INFO: At 1930000ns red: 1, yellow: 0, green: 0
+#              2130000: INFO: At 2130000ns red: 1, yellow: 0, green: 0
+#              2330000: INFO: At 2330000ns red: 1, yellow: 0, green: 0
+#              2530000: INFO: At 2530000ns red: 1, yellow: 0, green: 0
+#              2730000: INFO: At 2730000ns red: 1, yellow: 0, green: 0
+#              2930000: INFO: At 2930000ns red: 0, yellow: 1, green: 0
+#              3130000: INFO: At 3130000ns red: 0, yellow: 1, green: 0
+#              3330000: INFO: At 3330000ns red: 0, yellow: 1, green: 0
+#              3530000: INFO: At 3530000ns red: 0, yellow: 1, green: 0
+#              3730000: INFO: At 3730000ns red: 0, yellow: 1, green: 0
+#              3930000: INFO: At 3930000ns red: 0, yellow: 1, green: 0
+#              4130000: INFO: At 4130000ns red: 0, yellow: 1, green: 0
+#              4330000: INFO: At 4330000ns red: 0, yellow: 1, green: 0
+#              4530000: INFO: At 4530000ns red: 0, yellow: 1, green: 1
+#              4730000: INFO: At 4730000ns red: 0, yellow: 1, green: 1
+#              4930000: INFO: At 4930000ns red: 0, yellow: 1, green: 1
+#              5130000: INFO: At 5130000ns red: 0, yellow: 1, green: 1
+#              5330000: INFO: At 5330000ns red: 0, yellow: 1, green: 1
+#              5530000: INFO: At 5530000ns red: 0, yellow: 1, green: 1
+#              5730000: INFO: At 5730000ns red: 0, yellow: 0, green: 1
+#              6370000: INFO: At 6370000ns red: 1, yellow: 0, green: 0
+#              6570000: INFO: At 6570000ns red: 1, yellow: 0, green: 0
+#              6770000: INFO: At 6770000ns red: 1, yellow: 0, green: 0
+#              6970000: INFO: At 6970000ns red: 1, yellow: 0, green: 0
+#              7170000: INFO: At 7170000ns red: 1, yellow: 0, green: 0
+#              7370000: INFO: At 7370000ns red: 1, yellow: 0, green: 0
+#              7570000: INFO: At 7570000ns red: 1, yellow: 0, green: 0
+#              7770000: INFO: At 7770000ns red: 1, yellow: 0, green: 0
+#              7970000: INFO: At 7970000ns red: 1, yellow: 0, green: 0
+#              8170000: INFO: At 8170000ns red: 1, yellow: 0, green: 0
+#              8370000: INFO: At 8370000ns red: 0, yellow: 1, green: 0
+#              8570000: INFO: At 8570000ns red: 0, yellow: 1, green: 1
+#              8770000: INFO: At 8770000ns red: 0, yellow: 1, green: 1
+#              8970000: INFO: At 8970000ns red: 0, yellow: 1, green: 1
+#              9170000: INFO: At 9170000ns red: 0, yellow: 0, green: 1
+#              9810000: INFO: At 9810000ns red: 1, yellow: 0, green: 0
+#             10010000: INFO: At 10010000ns red: 1, yellow: 0, green: 0
+#             10210000: INFO: At 10210000ns red: 1, yellow: 0, green: 0
+#             10410000: INFO: At 10410000ns red: 0, yellow: 1, green: 0
+#             10610000: INFO: At 10610000ns red: 0, yellow: 1, green: 0
+#             10810000: INFO: At 10810000ns red: 0, yellow: 1, green: 0
+#             11010000: INFO: At 11010000ns red: 0, yellow: 1, green: 0
+#             11210000: INFO: At 11210000ns red: 0, yellow: 1, green: 1
+#             11410000: INFO: At 11410000ns red: 0, yellow: 1, green: 1
+#             11610000: INFO: At 11610000ns red: 0, yellow: 1, green: 1
+#             11810000: INFO: At 11810000ns red: 0, yellow: 0, green: 1
+#             12450000: INFO: At 12450000ns red: 1, yellow: 0, green: 0
+#             12650000: INFO: At 12650000ns red: 1, yellow: 0, green: 0
+#             12850000: INFO: At 12850000ns red: 0, yellow: 1, green: 0
+#             13050000: INFO: At 13050000ns red: 0, yellow: 1, green: 0
+#             13250000: INFO: At 13250000ns red: 0, yellow: 1, green: 0
+#             13450000: INFO: At 13450000ns red: 0, yellow: 1, green: 0
+#             13650000: INFO: At 13650000ns red: 0, yellow: 1, green: 0
+#             13850000: INFO: At 13850000ns red: 0, yellow: 1, green: 1
+#             14050000: INFO: At 14050000ns red: 0, yellow: 1, green: 1
+#             14250000: INFO: At 14250000ns red: 0, yellow: 1, green: 1
+#             14450000: INFO: At 14450000ns red: 0, yellow: 1, green: 1
+#             14650000: INFO: At 14650000ns red: 0, yellow: 1, green: 1
+#             14850000: INFO: At 14850000ns red: 0, yellow: 1, green: 1
+#             15050000: INFO: At 15050000ns red: 0, yellow: 1, green: 1
+#             15250000: INFO: At 15250000ns red: 0, yellow: 0, green: 1
+#             15250000: INFO: Test has completed
+# ** Note: $stop    : test_program.sv(126)
+#    Time: 15250 ns  Iteration: 1  Instance: /tb/tp
+# Break in Module test_program at test_program.sv line 126
+# End time: 20:14:00 on Jan 07,2022, Elapsed time: 0:20:06
+# Errors: 0, Warnings: 4

@@ -1,0 +1,117 @@
+Info: Starting: Create simulation model
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading dec_bfm/dec_test.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding master [altera_avalon_mm_master_bfm 18.1]
+Progress: Parameterizing module master
+Progress: Adding sem [semafor 1.0]
+Progress: Parameterizing module sem
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dec_test: Generating dec_test "dec_test" for SIM_VERILOG
+Info: master: "dec_test" instantiated altera_avalon_mm_master_bfm "master"
+Info: sem: "dec_test" instantiated semafor "sem"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dec_test" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "dec_test" instantiated altera_reset_controller "rst_controller"
+Info: master_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "master_m0_translator"
+Info: sem_ctl_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sem_ctl_slave_translator"
+Info: master_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "master_m0_agent"
+Info: sem_ctl_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sem_ctl_slave_agent"
+Info: sem_ctl_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sem_ctl_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: master_m0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "master_m0_limiter"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: dec_test: Done "dec_test" with 19 modules, 29 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\dec_test.spd --output-directory=D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\dec_test.spd --output-directory=D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	19 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test.qsys --block-symbol-file --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading dec_bfm/dec_test.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding master [altera_avalon_mm_master_bfm 18.1]
+Progress: Parameterizing module master
+Progress: Adding sem [semafor 1.0]
+Progress: Parameterizing module sem
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test.qsys --synthesis=VERILOG --output-directory=D:\intelFPGA\18.1\Lab3\Lab3\dec_bfm\dec_bfm\dec_test\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading dec_bfm/dec_test.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding master [altera_avalon_mm_master_bfm 18.1]
+Progress: Parameterizing module master
+Progress: Adding sem [semafor 1.0]
+Progress: Parameterizing module sem
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dec_test: Generating dec_test "dec_test" for QUARTUS_SYNTH
+Info: master: "dec_test" instantiated altera_avalon_mm_master_bfm "master"
+Info: sem: "dec_test" instantiated semafor "sem"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dec_test" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "dec_test" instantiated altera_reset_controller "rst_controller"
+Info: master_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "master_m0_translator"
+Info: sem_ctl_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sem_ctl_slave_translator"
+Info: master_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "master_m0_agent"
+Info: sem_ctl_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sem_ctl_slave_agent"
+Info: sem_ctl_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sem_ctl_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: master_m0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "master_m0_limiter"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/intelFPGA/18.1/Lab3/Lab3/dec_bfm/dec_bfm/dec_test/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: dec_test: Done "dec_test" with 19 modules, 29 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
